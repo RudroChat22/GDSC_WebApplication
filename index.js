@@ -7,7 +7,7 @@ const app = express()
 
 app.use(express.static("public"));
 
-const db="mongodb+srv://rudrochat:chat2204@cluster0.cgy6smq.mongodb.net/userdb"
+const db=""//make a mongodb account and copy paste your mongo db id in here to link this project with the mongo database
 
 
 mongoose
