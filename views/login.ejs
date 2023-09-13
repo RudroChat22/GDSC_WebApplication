@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form class="form " action="/login" method="POST" id="login">
+            <h1 class="form_title">Login</h1>
+            <div class="form_message form_message_error"></div>
+            <div class="form_input-group">
+                <input type="text" class="form_input"  placeholder="username/email id" name="username">
+                <div class="form_input-error-message"></div>
+            </div>
+            <div class="form_input-group">
+                <input type="password" class="form_input"  placeholder="password" name="password">
+                <div class="form_input-error-message"></div>
+            </div>
+            <button class="form__button" type="submit" name="continue">Continue</button>
+            <p class="form__text">
+                <a href="#" class="form__link">Forgot Your Password?</a>
+            </p>
+            <p class="form__text">
+                <a href="./signup" id="linkCreateAccount" class="form__link">Dont have an account? Create an account.</a>
+            </p>
+        
+        </form>
+        <script src="https://accounts.google.com/gsi/client" async defer></script>
+      <div id="g_id_onload"
+         data-client_id="957862985278-3onaq4o265d2vqf2slocch67p887iht5.apps.googleusercontent.com"
+         data-login_uri="https://localhost3000/home"
+         data-auto_prompt="false">
+      </div>
+      <div class="g_id_signin"
+         data-type="standard"
+         data-size="medium"
+         data-theme="filled_blue"
+         data-text="sign_in_with"
+         data-shape="pill"
+         data-logo_alignment="center">
+      </div>
+    </div>
+    
+    
+    
+</body>
+</html>
+
