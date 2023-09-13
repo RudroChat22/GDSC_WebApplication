@@ -1,0 +1,7 @@
+body{
+    background-image: url(../stylesheets/ocean-background-vector.jpg);
+    font:500 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
