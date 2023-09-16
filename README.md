@@ -11,3 +11,4 @@ cd <file directory>
 node index.js
 
 ````
+You will be directed to the Signup page
