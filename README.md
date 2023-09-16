@@ -11,6 +11,6 @@ cd <file directory>
 node index.js
 
 ````
-You will be directed to the Signup page
+Then open http://localhost:3000/signup
 
 Note: if the % sign appears before the file path remove it.
