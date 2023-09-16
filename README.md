@@ -12,3 +12,5 @@ node index.js
 
 ````
 You will be directed to the Signup page
+
+Note: if the % sign appears before the file path remove it.
